@@ -79,3 +79,13 @@
     
 </body>
 </html>
+
+<script>
+window.addEventListener("load", () => {
+  document.querySelectorAll("p.framer-text").forEach(el => {
+    if (el.textContent.includes("Certificatioons")) {
+      el.textContent = "Certifications";
+    }
+  });
+});
+</script>
